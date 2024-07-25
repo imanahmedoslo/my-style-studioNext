@@ -16,7 +16,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className="w-full min-h-screen h-fit bg-blue-100 overflow-y-scroll overflow-x-hidden flex flex-col">
+        <div className="w-full h-20 bg-red-400 text-3xl text-white">header</div>
+        <div className="w-full min-h-max h-fit bg-gray-100 flex justify-center ">
+          <div className="bg-white w-4/5 border border-gray-200 flex">
+          {children}
+            </div>
+            </div>
+        <div className="bg-orange-200 h-28">footer</div>
+        {/* add footer */}
+      </body>
     </html>
   );
 }
