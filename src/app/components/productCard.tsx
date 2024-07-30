@@ -9,7 +9,7 @@ type ProductCardProps = {
   image:string;
 };
 
-const ProductCard: React.FC<ProductCardProps> = ({ title, price, image, sizeChoises="36-43", description="cool shoe" }) => {
+function ProductCard ({ title, price, image, sizeChoises="36-43", description="cool shoe" }: ProductCardProps) {
   return (
     <div className='h-fit max-w-1/3 w-fit p-2 '>
       <div className='border h-full rounded-xl border-gray-200 flex flex-col gap-3 p-2 bg-gradient-to-t from-gray-50 to-white transition duration-200 ease-in-out hover:shadow-2xl hover:border-gray-4 00'>
