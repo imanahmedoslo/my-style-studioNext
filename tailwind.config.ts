@@ -11,6 +11,7 @@ const config: Config = {
     extend: {
       height: {
         '50dvh': '50dvh',
+        '40dvh': "40dvh",
       },
       minHeight: {
         '0': '0',
