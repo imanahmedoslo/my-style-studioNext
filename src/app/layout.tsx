@@ -19,7 +19,7 @@ export default function RootLayout({
       <body className="w-full min-h-screen h-fit bg-blue-100 overflow-y-scroll overflow-x-hidden flex flex-col">
         <div className="w-full h-20  text-3xl text-white">header</div>
         <div className="w-full min-h-max h-fit bg-gray-100 flex justify-center ">
-          <div className="bg-white w-4/5 border border-gray-200 flex">
+          <div className="bg-white max-w-[1440px] w-4/5 border border-gray-200 flex">
           {children}
             </div>
             </div>
